@@ -1,0 +1,479 @@
+*{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+a{
+    color: darkgoldenrod;
+    text-decoration: none;
+    
+}
+body{
+    background-color: lavender;
+    
+}
+.container{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    
+}
+label.logo{
+    width: 100px;
+    padding-top: 30px;
+    padding-left: 20px;
+    }
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    padding: 10px ;
+    width: 90%;
+    
+}
+a.active,a:hover{
+    background-color: azure;
+    transition: .5s;
+    padding: 5px;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+.h1{
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: darkgoldenrod;
+}
+ul{
+    width: 80%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    text-align: end;
+    font-size: x-large;
+}
+ul a{
+    border-bottom: 2px solid transparent;
+}
+ul a:hover{
+    border-bottom-color: white;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-style: italic;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: darkgoldenrod;
+}
+.c{
+    display: flex;
+
+}
+.c1 , .c2{
+    width: 50%;
+    height: 300px;
+    padding: 0 100px;
+}
+.c1 img, .c2 img{
+    width: 100%;
+    height: 100%;
+}
+.c1 h4 , .c2 h4{
+    text-align: center;
+    color: darkgoldenrod;
+    font-size: 40px;
+    font-weight: 500;
+}
+.image{
+    display: flex;
+    justify-content: center;
+
+}
+.image img{
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+}
+.hp-h{
+    width: 350px;
+    text-align: center;
+    align-items: center;
+}
+.hp-p{
+    width: 350px;
+    padding-left: 570px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 100;
+
+}
+.button button{
+    margin-top: 40px;
+    width: 200px;
+    height: 100%;
+    background-color: darkgoldenrod;
+    font-size: x-large;
+    font-weight: 200;
+    margin-left: 1300px;
+    
+}
+.button a{
+    color: black;
+}
+.button :hover{
+    background-color: azure;
+}
+
+.parant{
+    display: flex;
+    justify-content: space-between;
+
+}
+.p1 , .p2, .p3, .p4{
+    
+    width: 350px;
+    margin-top: 50px;
+
+}
+.p1 img, .p2 img ,.p3 img, .p4 img{
+    width: 100%;
+    
+}
+.p1 p, .p2 p ,.p3 p, .p4 p{
+    text-align: center;
+    font-size: larger;
+    font-weight: 200;
+}
+.a{
+    margin-top: 70px;
+    width: 200px;
+    margin-left: 1300px;
+}
+.a p{
+    font-size: larger;
+    font-weight: 200;
+}
+.whats{
+    
+    width: 200px;
+    padding-left: 1300px;
+    margin-top: 50px;
+}
+.b{
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+    
+}
+.b p {
+    
+    font-size: larger;
+    font-weight: 200;
+    text-align: right;
+    margin-bottom: 10px;
+}
+.b1{
+    text-align: right;
+}
+
+.services h1{
+
+    padding-top: 50px;
+    font-size: 100px;
+    font-style: italic;
+    font-weight: 300;
+    color: darkgoldenrod;
+    text-align: center;
+}
+.ser{
+    width: 300px;
+    margin-top: 10px;
+    padding-left: 600px;
+}
+.ser1{
+    width: 500px;
+    padding-left: 500px;
+    margin-top: 20px;
+    font-size: x-large;
+    color: black;
+    text-align: center;
+}
+.prod h1{
+    margin-top: 50px;
+    font-size: 100px;
+    font-style: italic;
+    font-weight: 300;
+    color: darkgoldenrod;
+    text-align: center;
+}
+.prod-img{
+    margin-top: 50px;
+    padding-left: 600px;
+    margin-bottom: 50px;
+    display: block;
+    width: 300px;
+    align-items: center;
+}
+.cont{
+    margin-top: 100px;
+    padding-left: 500px;
+    width: 500px;
+}
+.cont p{
+    font-size: x-large;
+    font-weight: 500;
+    text-align: center;
+    
+}
+
+@media (max-width: 575.98px) { 
+
+header ul li a{
+    font-size: 16px;
+    padding: 5px;
+}
+.container{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+    
+    
+}
+label.logo{
+    width: 100px;
+    padding-top: 10px;
+    padding-left: 20px;
+    }
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    padding: 1px ;
+    width: 90%;
+}
+a:hover{
+    background-color: azure;
+    transition: .5s;
+    padding: 5px;
+}
+
+
+.h1{
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: darkgoldenrod;
+}
+ul{
+    width: 80%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    text-align: end;
+    font-size: x-large;
+}
+ul a{
+    border-bottom: 2px solid transparent;
+}
+ul a:hover{
+    border-bottom-color: white;
+}
+.h1{
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: darkgoldenrod;
+}
+.c{
+    display: flex;
+
+}
+.c1 , .c2{
+    width: 25%;
+    height: 150px;
+    padding: 0 50px;
+}
+.c1 img, .c2 img{
+    width: 100%;
+    height: 100%;
+}
+.c1 h4 , .c2 h4{
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    font-weight: 200;
+}
+.image{
+    display: flex;
+    justify-content: center;
+
+}
+.image img{
+    justify-content: center;
+    width: 152px;
+    height: 150px;
+}
+.hp-h{
+    width: 175px;
+    text-align: center;
+    align-items: center;
+}
+.hp-p{
+    width: 350px;
+    padding-left: 80px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 100;
+}
+.button button{
+    margin-top: 20px;
+    width: 200px;
+    height: 100%;
+    background-color: darkgoldenrod;
+    font-size: x-large;
+    font-weight: 200;
+    margin-left: 200px;
+    
+}
+.button a{
+    color: black;
+}
+.button :hover{
+    background-color: azure;
+}
+.parant{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.p1 , .p2, .p3, .p4{
+    padding: 30px;
+    width: 170px;
+    margin-top: 20px;
+
+}
+.p1 img, .p2 img ,.p3 img, .p4 img{
+    width: 100%;
+    
+}
+.p1 p, .p2 p ,.p3 p, .p4 p{
+    text-align: center;
+    font-size: medium;
+    font-weight: 100;
+}
+.a{
+    margin-top: 30px;
+    width: 100px;
+    margin-left: 200px;
+}
+.a p{
+    font-size: medium;
+    font-weight: 100;
+}
+.whats{
+    width: 100px;
+    padding-left: 200px;
+    margin-top: 30px;
+}
+.b{
+    width: 100%;
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    
+}
+.b p {
+    
+    font-size: medium;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.b1{
+    text-align: center;
+}
+.services h1{
+    padding-top: 50px;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: 100;
+    color: darkgoldenrod;
+    text-align: center;
+}
+.ser{
+    width: 200px;
+    margin-top: 10px;
+    padding-left: 190px;
+}
+.ser1{
+    width: 250px;
+    padding-left: 170px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+.prod h1{
+    margin-top: 50px;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: 100;
+    color: darkgoldenrod;
+    text-align: center;
+}
+.prod-img{
+    margin-top: 20px;
+    padding-left: 150px;
+    margin-bottom: 50px;
+    display: block;
+    width: 250px;
+    align-items: center;
+}
+.cont{
+    margin-top: 100px;
+    padding-left: 100px;
+    width: 250px;
+}
+.cont p{
+    font-size: x-large;
+    font-weight: 200;
+    text-align: center;
+    
+}
+
+
+
+ }
+
+
